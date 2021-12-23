@@ -1,0 +1,31 @@
+---
+# Tên thế giới dịch chuyển qua xứ Shire
+# Ví Dụ: 
+# shire->world: "world"
+shire-world: "Shire"
+# Khi Tham Gia Hoạt Động Lệnh
+# Ví dụ:
+# join-cmd: "me Hi !" = /me Hi !
+join-cmd: "hub"
+# Giá Mua Thuốc Chống Virus, Tính theo Money (Plugin Cần Thiết: EconomyAPI)
+# Ví Dụ:
+# medicine-cost: 500000
+medicine-cost: 100000
+# Giá Vaccine Chống Virus, Tính theo Money (Plugin Cần Thiết: EconomyAPI)
+# Ví Dụ:
+# vaccine-cost: 3000000
+vaccine-cost: 1000000
+# Menu Chợ Đen
+# Max 20 Nút
+# Bắt Đầu Từ Số 0 tới số 20
+Choden:
+  0:
+    Permissions: "shire.command"
+    Button: "§l§3●§2 Vé Qua Xứ Shire §3●"
+  1:
+    Permissions: "eternity.command"
+    Button: "§l§3●§2 Kĩ Năng Eternity §3●"
+  2:
+    Permissions: "kingofblock.command"
+    Button: "§l§3●§2 Kĩ Năng kingOfBlock §3●"
+...

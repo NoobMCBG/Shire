@@ -1,0 +1,23 @@
+name: Shire
+main: NoobMCBG\Shire\Main
+api: 3.0.0
+version: 1.0.0
+author: NoobMCBG
+idea: MineFore
+description: Plugin Xứ Shire Remake Bởi NoobMCBG
+
+commands:
+  shire:
+    description: Lệnh Để Dịch Chuyển Qua Xứ Shire
+    usage: /shire
+  virus:
+    description: Lệnh Để Mở Menu Dịch Bệnh
+    usage: true
+  choden: 
+    description: Lệnh Để Mở Menu Chợ Đen
+    default: true
+    
+permissions:
+  shire.command:
+    description: Quyền Sử Dụng Lệnh /shire
+    default: op
